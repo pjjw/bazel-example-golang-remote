@@ -1,3 +1,5 @@
+workspace(name = "ws_remote")
+
 git_repository(
     name = "io_bazel_rules_go",
     remote = "https://github.com/bazelbuild/rules_go.git",
